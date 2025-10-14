@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Digital_rain_animation_medium_letters_shine.gif" width="700" alt="Matrix digital rain"/>
+  <img src="https://media.giphy.com/media/3oEjHWbXcpeKhTktXi/giphy.gif" width="700" alt="hacker terminal"/>
 </p>
 
 
