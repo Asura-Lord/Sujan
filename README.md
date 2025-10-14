@@ -1,50 +1,73 @@
-<p align="center"> <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="700" alt="hacker vibe gif"/> </p> <p align="center"> <img src="https://komarev.com/ghpvc/?username=Sujan&color=green" alt="profile views" /> &nbsp;&nbsp; <img src="https://visitor-badge.laobi.icu/badge?page_id=Sujan.Sujan" alt="visitor badge" /> </p>
-🔥 Hacker Vibe (but ethical)
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="700" alt="hacker vibe gif"/>
+</p>
 
-I live for systems, networks, and the thrill of understanding how things really work.
-I tinker, break in controlled labs, and build tools that protect — not hurt.
-No unauthorized attacks. Lab-only. CTFs and responsible disclosure.
+# 👋 Hey — I'm Sujan
+**Tech junkie · Ethical hacker‑in‑training · Cybersecurity vibes**  
+*This profile is a lab — everything here is for learning, CTFs, and authorized testing only.* 🚀
 
-🎯 Quick Snapshot
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Sujan&color=green" alt="profile views" />
+  &nbsp;&nbsp;
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Sujan.Sujan" alt="visitor badge" />
+</p>
 
-Alias: Sujan
+---
 
-Focus: Ethical hacking · Vulnerability research · Security automation · CTFs
+## 🔥 Quick intro
+I tinker with systems, networks, and code — always learning and building in **lab environments only**.  
+Focus areas: **ethical hacking**, **CTFs**, **vulnerability research**, and **security automation**.
 
-Languages: Python · JavaScript · Bash · learning Go
+---
 
-Tools I use: Nmap · Burp Suite · Wireshark · Ghidra · Docker · Elastic/Kibana
+## 🎯 Snapshot
+- **Alias:** Sujan  
+- **Focus:** Ethical hacking · Vulnerability research · Security automation · CTFs  
+- **Languages:** Python · JavaScript · Bash · (learning Go)  
+- **Tools:** Nmap · Burp Suite · Wireshark · Ghidra · Docker · Elastic/Kibana  
+- **Setup:** Neovim · tmux · zsh · Docker labs
 
-Setup: Neovim · tmux · zsh · Docker labs
+---
 
-📊 GitHub Overview
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Sujan&show_icons=true&theme=radical" alt="GitHub stats" /> &nbsp; <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sujan&layout=compact&theme=radical" alt="Top languages" /> </p>
-🔭 Currently Learning & Building
+## 🔐 Responsible / Ethical Statement
+Everything here is for education, labs, and authorized tests only. I do **not** perform unauthorized attacks. If you find something in my public work that looks insecure, file an issue — let's fix it together.
 
-Practical web pentesting (lab-only): XSS, SQLi, auth bypass chains (in controlled boxes).
+---
 
-Detection & logging: SIEM basics and Elastic/Kibana playbooks.
+## 🛠 What I'm learning now
+- Practical web pentesting (lab-only): XSS, SQLi, auth bypass chains in controlled boxes  
+- SIEM & detection: Elastic/Kibana playbooks and logging pipelines  
+- Automation: Python scripts for safe recon and lab automation  
+- CTF practice: writeups and small tooling
 
-Automation: Python scripts for safe recon in my lab (not for live targets).
+---
 
-CTF practice: writeups, small tooling, and riffing on exploit chains inside VMs.
+## 📌 Featured (to be pinned)
+> I keep these repos lab-safe and documented.
 
-🧩 Featured (What I pin / will pin)
+- **pentest-lab-automation** — scripts and compose files to spin up vulnerable VMs/containers for learning.  
+- **vuln-notify** — a demo service that parses CVE feeds and sends sanitized alerts to webhooks (lab/demo only).  
+- **ctf-tools** — helpful encoders/decoders and small scripts used while doing CTFs.  
+- **dotfiles** — my terminal/dev environment configs (neovim, tmux, zsh, aliases).
 
-These are lab-oriented, documented, and safe for anyone to fork and learn from.
+---
 
-1) pentest-lab-automation
+## 🧾 Repo README template
+Use this template for each project README so everything looks consistent.
 
-Spin up isolated lab VMs/containers for practice. Pre-installed intentionally vulnerable apps (DVWA, OWASP Juice Shop), instrumented with monitoring so I can learn detection as I attack in my lab.
+```markdown
+# PROJECT-NAME
+Short one-line description (LAB-ONLY).
 
-2) vuln-notify
+## ⚠️ Important
+This project is for learning and lab use only. Do not use these tools against systems or networks you do not own or have permission to test.
 
-A personal, lab-safe notifier that demonstrates how to fetch CVE feeds and produce sanitized alerts. Useful as a learning exercise for parsing feeds and integrating webhook notifications in a safe environment.
+## Features
+- Feature 1
+- Feature 2
 
-3) ctf-tools
-
-Small, harmless helpers for CTF tasks: encoders/decoders, format converters, and note templates for writeups. No challenge binaries — just tools to speed up learning.
-
-4) dotfiles
-
-My terminal setup: neovim, tmux, zsh, aliases, and helpful dev ergonomics for hacking (lab-only workflows).
+## Quickstart (lab-only)
+```bash
+git clone https://github.com/Sujan/PROJECT-NAME.git
+cd PROJECT-NAME
+# follow project-specific instructions in README
