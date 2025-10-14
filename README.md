@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="700" alt="hacker vibe gif"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Digital_rain_animation_medium_letters_shine.gif" width="700" alt="Matrix digital rain"/>
 </p>
+
 
 # 👋 Hey — I'm Sujan
 **Tech junkie · Ethical hacker‑in‑training · Cybersecurity vibes**  
@@ -50,24 +51,3 @@ Everything here is for education, labs, and authorized tests only. I do **not** 
 - **ctf-tools** — helpful encoders/decoders and small scripts used while doing CTFs.  
 - **dotfiles** — my terminal/dev environment configs (neovim, tmux, zsh, aliases).
 
----
-
-## 🧾 Repo README template
-Use this template for each project README so everything looks consistent.
-
-```markdown
-# PROJECT-NAME
-Short one-line description (LAB-ONLY).
-
-## ⚠️ Important
-This project is for learning and lab use only. Do not use these tools against systems or networks you do not own or have permission to test.
-
-## Features
-- Feature 1
-- Feature 2
-
-## Quickstart (lab-only)
-```bash
-git clone https://github.com/Sujan/PROJECT-NAME.git
-cd PROJECT-NAME
-# follow project-specific instructions in README
