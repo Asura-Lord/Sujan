@@ -66,8 +66,9 @@ Focus areas: **ethical hacking**, **CTFs**, **vuln research**, and **security au
 ---
 
 ## 🛡 Safety
-> **All activities, tools, and write-ups here are for educational and **authorized/lab use only**.  
+> All activities, tools, and write-ups here are for educational and **authorized/lab use only**.  
 > Be curious, but always respect the law and others' privacy.
+> ***Keep it dangerous, keep it legal. — Asura-Lord 👹***
 
 ---
 
