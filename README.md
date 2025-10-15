@@ -3,9 +3,22 @@
 *This profile is a lab — everything here is for learning, CTFs, and authorized testing only.* 🚀
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Sujan&color=green" alt="profile views" />
+  <!-- Profile view badges -->
+  <img src="https://komarev.com/ghpvc/?username=Asura-Lord&color=green" alt="profile views" />
   &nbsp;&nbsp;
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Sujan.Sujan" alt="visitor badge" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Asura-Lord.Asura-Lord" alt="visitor badge" />
+</p>
+
+<p align="center">
+  <!-- Skills & tech badges -->
+  ![Python](https://img.shields.io/badge/python-3.13-blue?logo=python&style=for-the-badge)
+  ![Bash](https://img.shields.io/badge/bash-5.3-green?logo=gnu-bash&style=for-the-badge)
+  ![Linux](https://img.shields.io/badge/linux-Ubuntu-orange?logo=linux&style=for-the-badge)
+  ![Docker](https://img.shields.io/badge/docker-24.0-blue?logo=docker&style=for-the-badge)
+  ![Nmap](https://img.shields.io/badge/nmap-7.97-red?logo=nmap&style=for-the-badge)
+  ![MIT License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+  ![CTF Player](https://img.shields.io/badge/CTFs-active-red?style=for-the-badge)
+  ![Ethical Hacker](https://img.shields.io/badge/Ethical%20Hacker-lab%20only-purple?style=for-the-badge)
 </p>
 
 ---
@@ -17,7 +30,7 @@ Focus areas: **ethical hacking**, **CTFs**, **vulnerability research**, and **se
 ---
 
 ## 🎯 Snapshot
-- **Alias:** Sujan  
+- **Name:** Sujan  
 - **Focus:** Ethical hacking · Vulnerability research · Security automation · CTFs  
 - **Languages:** Python · JavaScript · Bash · (learning Go)  
 - **Tools:** Nmap · Burp Suite · Wireshark · Ghidra · Docker · Elastic/Kibana  
@@ -26,7 +39,8 @@ Focus areas: **ethical hacking**, **CTFs**, **vulnerability research**, and **se
 ---
 
 ## 🔐 Responsible / Ethical Statement
-Everything here is for education, labs, and authorized tests only. I do **not** perform unauthorized attacks. If you find something in my public work that looks insecure, file an issue — let's fix it together.
+Everything here is for **education, labs, and authorized tests only**.  
+I do **not** perform unauthorized attacks. If you find something insecure in my public work, file an issue — let's fix it together.
 
 ---
 
@@ -48,10 +62,6 @@ Everything here is for education, labs, and authorized tests only. I do **not** 
   <img src="./sample_results/demo.gif" width="850" alt="demo run"/>
 </p>
 
-**Badges:**  
-![Python](https://img.shields.io/badge/python-3.13-blue?logo=python)  
-![License](https://img.shields.io/badge/license-MIT-green)
-
 ### 🔜 Side / Upcoming
 - **pentest-lab-automation** 🔧 — scripts & compose files to spin up vulnerable VMs/containers (DVWA, Juice Shop) for safe practice. ⚠️ Lab-only  
 - **vuln-notify** 🔧 — demo service parsing CVE feeds and sending sanitized alerts to webhooks. ⚠️ Lab/demo only  
@@ -62,19 +72,20 @@ Everything here is for education, labs, and authorized tests only. I do **not** 
 
 ## 🚀 Quick Links & Stats
 <p align="center">
-  ![Sujan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sujan&show_icons=true&theme=radical)
+  ![Asura-Lord's GitHub stats](https://github-readme-stats.vercel.app/api?username=Asura-Lord&show_icons=true&theme=radical)
 </p>
 
 ---
 
 ## ⚖️ Responsible Use
-This profile and repos are educational. Always scan with **permission**, use **snapshots**, isolated networks, and follow rules of engagement. Keep it **dangerous but legal**.  
+This profile and repos are **educational only**. Always scan with **permission**, use **snapshots**, isolated networks, and follow rules of engagement.  
+Keep it **dangerous but legal**.  
 
 ---
 
 ## 🧾 License & Contact
 MIT — see LICENSE.  
-Maintained by **Sujan**  
-Repo: [https://github.com/Asura-Lord/recon-automator](https://github.com/Asura-Lord/recon-automator)  
+Maintained by ** Asura-Lord**  
+Repo:https://github.com/Asura-Lord 
 
-Keep it dangerous, keep it legal. — **Sujan**
+Keep it dangerous, keep it legal. — **Asura Lord**
