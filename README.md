@@ -20,10 +20,7 @@
   <img src="https://img.shields.io/badge/CTF-active-red?style=for-the-badge" alt="ctf" />
 </p>
 
-<p align="center">
-  <!-- Optional: GitHub stats badge -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Asura-Lord&show_icons=true&theme=dracula" alt="Sujan's GitHub stats"/>
-</p>
+
 
 ---
 
@@ -54,10 +51,8 @@ Focus areas: **ethical hacking**, **CTFs**, **vuln research**, and **security au
 
 ### ✅ Completed
 - **recon-automator** ⚡ — Lab-safe recon automation (Nmap + HTTP checks + optional dir fuzzing), outputs a clean `summary.json`.  
-  Demo:  
-  <p align="center">
-    <img src="./sample_results/demo.gif" width="850" alt="demo run"/>
-  </p>
+  
+g width="1917" height="757" alt="demo" src="https://github.com/user-attachments/assets/00b20f10-dd2e-4942-97cc-f33ef8eb14b9" />
 
 ### 🔨 Upcoming & Experiments
 - **pentest-lab-automation** — (coming soon) Scripts & compose files to spin up vulnerable VMs/containers. ⚠️ Lab-only
