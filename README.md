@@ -1,6 +1,9 @@
 # 👋 Hey — I'm Sujan  
-**Tech junkie · Ethical hacker-in-training · Cybersecurity vibes**  
-*This profile is a lab — everything here is for learning, CTFs, and authorized testing only.* 🚀
+**Tech junkie · Ethical hacker-in-training · Cybersecurity vibes**
+
+> **⚠️ Disclaimer:**  
+> Everything in this profile is for learning, CTFs, and **authorized/lab environments only**.  
+> Keep it dangerous, keep it legal. — **Asura-Lord**
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Asura-Lord&color=green" alt="profile views" />
@@ -17,39 +20,64 @@
   <img src="https://img.shields.io/badge/CTF-active-red?style=for-the-badge" alt="ctf" />
 </p>
 
+<p align="center">
+  <!-- Optional: GitHub stats badge -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Asura-Lord&show_icons=true&theme=dracula" alt="Sujan's GitHub stats"/>
+</p>
+
 ---
 
-## 🔥 Quick intro
-I tinker with systems, networks, and code — always learning and building in **lab environments only**.  
+## 📑 Table of Contents
+- [Quick Intro](#-quick-intro)
+- [What I'm Learning Now](#-what-im-learning-now)
+- [Featured Projects](#-featured-projects)
+- [Safety](#safety)
+- [Contact](#contact)
+
+---
+
+## 🔥 Quick Intro
+I tinker with systems, networks, and code—always learning and building in **lab environments only**.  
 Focus areas: **ethical hacking**, **CTFs**, **vuln research**, and **security automation**.
 
-## 📌 Featured / Projects
-> Lab-safe, portfolio-ready repos.
 ---
 
-## 🛠 What I'm learning now
+## 🛠 What I'm Learning Now
 - Practical web pentesting (lab-only): XSS, SQLi, auth bypass chains in controlled boxes  
 - SIEM & detection: Elastic/Kibana playbooks and logging pipelines  
 - Automation: Python scripts for safe recon and lab automation  
-- CTF practice: writeups and small tooling
+- CTF practice: write-ups and small tooling
 
 ---
 
-## 📌 Featured / Projects
+## 📌 Featured Projects
+
 ### ✅ Completed
-- **recon-automator** ⚡ — lab-safe recon automation (Nmap + HTTP checks + optional dir fuzzing) → produces clean `summary.json`. Demo in `sample_results/`.
+- **recon-automator** ⚡ — Lab-safe recon automation (Nmap + HTTP checks + optional dir fuzzing), outputs a clean `summary.json`.  
+  Demo:  
+  <p align="center">
+    <img src="./sample_results/demo.gif" width="850" alt="demo run"/>
+  </p>
+
+### 🔨 Upcoming & Experiments
+- **pentest-lab-automation** — (coming soon) Scripts & compose files to spin up vulnerable VMs/containers. ⚠️ Lab-only
+- **vuln-notify** — (demo) Service parsing CVE feeds and sending sanitized alerts, for learning threat intel.
+- **ctf-tools** — Small helpers for CTFs (encoders, converters, write-up templates).
+- **dotfiles** — Neovim/tmux/zsh configs for lab workflows.
+
+---
+
+## 🛡 Safety
+> **All activities, tools, and write-ups here are for educational and **authorized/lab use only**.  
+> Be curious, but always respect the law and others' privacy.
+
+---
+
+## 📬 Contact
 
 <p align="center">
-  <!-- put your demo.gif or demo.png here -->
-  <img src="./sample_results/demo.gif" width="850" alt="demo run"/>
+  <a href="https://www.facebook.com/share/16irCo484u/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" width="28" style="vertical-align:middle; margin-right:8px;" alt="Facebook"/>
+    <strong style="font-size:1.2em; vertical-align:middle;">Sujan KC</strong>
+  </a>
 </p>
-
-### 🔜 Side / Upcoming
-- **pentest-lab-automation** — scripts & compose files to spin up vulnerable VMs/containers. ⚠️ Lab-only  
-- **vuln-notify** — demo service parsing CVE feeds and sending sanitized alerts (demo only).  
-- **ctf-tools** — small helpers for CTFs (encoders, converters, writeup templates).  
-- **dotfiles** — neovim/tmux/zsh configs for lab workflows.
-
-
-## Safety
-Keep it dangerous, keep it legal. — **Asura-Lord**
