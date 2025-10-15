@@ -23,6 +23,16 @@
 I tinker with systems, networks, and code — always learning and building in **lab environments only**.  
 Focus areas: **ethical hacking**, **CTFs**, **vuln research**, and **security automation**.
 
+## 📌 Featured / Projects
+> Lab-safe, portfolio-ready repos.
+---
+
+## 🛠 What I'm learning now
+- Practical web pentesting (lab-only): XSS, SQLi, auth bypass chains in controlled boxes  
+- SIEM & detection: Elastic/Kibana playbooks and logging pipelines  
+- Automation: Python scripts for safe recon and lab automation  
+- CTF practice: writeups and small tooling
+
 ---
 
 ## 📌 Featured / Projects
