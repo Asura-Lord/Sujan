@@ -1,4 +1,3 @@
-````markdown name=README.md url=https://github.com/Asura-Lord/Sujan/blob/3f5aebc6b8f7922e328ddad6f922628c6810e208/README.md
 # 👋 Hey — I'm Sujan  
 **Tech junkie · Ethical hacker-in-training · Cybersecurity vibes**
 
@@ -82,4 +81,3 @@ Focus areas: **ethical hacking**, **CTFs**, **vuln research**, and **security au
     <strong style="font-size:1.2em; vertical-align:middle;">Sujan KC</strong>
   </a>
 </p>
-````
