@@ -1,82 +1,150 @@
-# 👋 Hey — I'm Sujan  
-**Tech junkie · Ethical hacker-in-training · Cybersecurity vibes**
+# ⚡ recon-automator
 
-> **⚠️ Disclaimer:**  
-> Everything in this profile is for learning, CTFs, and **authorized/lab environments only**.  
-> Keep it dangerous, keep it legal. — **Asura-Lord**
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/status-LAB--ONLY-red?style=flat-square)
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Asura-Lord&color=green" alt="profile views" />
-  &nbsp;&nbsp;
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Asura-Lord.Asura-Lord" alt="visitor badge" />
-</p>
-
-<p align="center">
-  <!-- Minimal, reliable badges -->
-  <img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python" alt="python" />
-  <img src="https://img.shields.io/badge/Bash-5.3-green?style=for-the-badge&logo=gnu-bash" alt="bash" />
-  <img src="https://img.shields.io/badge/Linux-Ubuntu-orange?style=for-the-badge&logo=linux" alt="linux" />
-  <img src="https://img.shields.io/badge/Docker-24.0-blue?style=for-the-badge&logo=docker" alt="docker" />
-  <img src="https://img.shields.io/badge/CTF-active-red?style=for-the-badge" alt="ctf" />
-</p>
-
-<p align="center">
-  <!-- Optional: GitHub stats badge -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Asura-Lord&show_icons=true&theme=dracula" alt="Sujan's GitHub stats"/>
-</p>
+**Lightweight, lab-only recon automation** — Nmap + HTTP checks + optional dir fuzzing → single `summary.json`  
+_Built for CTFs, learning, and defensive detection practice. **Run only in isolated VMs.**_
 
 ---
 
-## 📑 Table of Contents
-- [Quick Intro](#-quick-intro)
-- [What I'm Learning Now](#-what-im-learning-now)
-- [Featured Projects](#-featured-projects)
-- [Safety](#safety)
-- [Contact](#contact)
+## 🔐 Quick warning
+
+> **:warning: DO NOT** run these scripts against public networks or systems you do not own or have explicit permission to test.  
+> This project is for lab environments only (VMware/VirtualBox, isolated networks, snapshots).
 
 ---
 
-## 🔥 Quick Intro
-I tinker with systems, networks, and code—always learning and building in **lab environments only**.  
-Focus areas: **ethical hacking**, **CTFs**, **vuln research**, and **security automation**.
+## 🧩 What it does
+
+- 🔍 Runs `nmap` (service detection & safe NSE scripts), saves XML + grepable output
+- 🌐 Fetches HTTP headers and `robots.txt` for `http` and `https`
+- 🗂️ Optionally runs directory fuzzing with `ffuf` or `dirb`
+- 📄 Produces a single, clean `summary.json` via `parse_results.py` for easy review
 
 ---
 
-## 🛠 What I'm Learning Now
-- Practical web pentesting (lab-only): XSS, SQLi, auth bypass chains in controlled boxes  
-- SIEM & detection: Elastic/Kibana playbooks and logging pipelines  
-- Automation: Python scripts for safe recon and lab automation  
-- CTF practice: write-ups and small tooling
+## 📂 Main files
+
+| File/Folder          | Description                                 |
+|----------------------|---------------------------------------------|
+| `recon.ps1`          | PowerShell orchestration (Windows)          |
+| `recon.sh`           | Bash orchestration (Linux, optional)        |
+| `parse_results.py`   | Parser → `summary.json`                     |
+| `sample_results/`    | Example run (BOM cleaned)                   |
+| `README.md`          | This file                                   |
+| `LICENSE`            | Open source license                         |
 
 ---
 
-## 📌 Featured Projects
+## 🚀 Quickstart
 
-### ✅ Completed
-- **recon-automator** ⚡ — Lab-safe recon automation (Nmap + HTTP checks + optional dir fuzzing), outputs a clean `summary.json`.  
-  Demo:  
-  <img width="1917" height="757" alt="demo" src="https://github.com/user-attachments/assets/00b20f10-dd2e-4942-97cc-f33ef8eb14b9" />
-
-### 🔨 Upcoming & Experiments
-- **pentest-lab-automation** — (coming soon) Scripts & compose files to spin up vulnerable VMs/containers. ⚠️ Lab-only
-- **vuln-notify** — (demo) Service parsing CVE feeds and sending sanitized alerts, for learning threat intel.
-- **ctf-tools** — Small helpers for CTFs (encoders, converters, write-up templates).
-- **dotfiles** — Neovim/tmux/zsh configs for lab workflows.
+Copy the whole block below and paste it where you want in your README or HELP file.
 
 ---
 
-## 🛡 Safety
-> All activities, tools, and write-ups here are for educational and **authorized/lab use only**.  
-> Be curious, but always respect the law and others' privacy.
-> ***Keep it dangerous, keep it legal. — Asura-Lord 👹***
+### 🪟 Windows (PowerShell)
+
+```powershell
+git clone https://github.com/Asura-Lord/recon-automator.git
+cd recon-automator
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force   # one-time
+.\recon.ps1 -Target <IP> -Dir
+python parse_results.py --input .\results\<target_timestamp> --output .\results\<target_timestamp>\summary.json
+Get-Content .\results\<target_timestamp>\summary.json | Out-Host
+```
+
+**Notes (Windows):**
+- Replace `<IP>` with the target IP address of your lab VM (do **not** keep angle brackets).
+- Replace `<target_timestamp>` with the actual folder name created under `results/` (you can auto-detect it using File Explorer or PowerShell).
+- The `Set-ExecutionPolicy` command is only needed the first time on your machine.
 
 ---
 
-## 📬 Contact
+### 🐧 Linux / Kali (Bash)
 
-<p align="center">
-  <a href="https://www.facebook.com/share/16irCo484u/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" width="28" style="vertical-align:middle; margin-right:8px;" alt="Facebook"/>
-    <strong style="font-size:1.2em; vertical-align:middle;">Sujan KC</strong>
-  </a>
-</p>
+```bash
+git clone https://github.com/Asura-Lord/recon-automator.git
+cd recon-automator
+chmod +x recon.sh
+./recon.sh --target <IP> --dir --wordlist /usr/share/wordlists/dirb/common.txt
+python3 parse_results.py --input results/<target_timestamp> --output results/<target_timestamp>/summary.json
+jq . results/<target_timestamp>/summary.json
+```
+
+**Notes (Linux / Kali):**
+- Replace `<IP>` with your lab VM IP (no angle brackets).
+- `chmod +x recon.sh` is only needed once to make the script executable.
+- If `jq` is not installed, install it with `sudo apt update && sudo apt install -y jq`.
+- To automatically find the newest result folder for the target, you can run:
+  ```bash
+  RESULT_DIR=$(ls -d results/<IP>_* | sort | tail -n1)
+  python3 parse_results.py --input "${RESULT_DIR}" --output "${RESULT_DIR}/summary.json"
+  jq . "${RESULT_DIR}/summary.json"
+  ```
+
+---
+
+## 🧾 Example output (`summary.json`)
+
+```json
+{
+  "target": "192.168.186.128_20251014_100936",
+  "nmap": {
+    "hosts": [
+      {
+        "addresses": [
+          {"addr":"192.168.186.128","addrtype":"ipv4"},
+          {"addr":"00:0C:29:D6:4C:37","addrtype":"mac","vendor":"VMware"}
+        ],
+        "ports": [
+          {
+            "portid":"22",
+            "protocol":"tcp",
+            "state":{"state":"open","reason":"syn-ack"},
+            "service":{"name":"ssh","product":"OpenSSH","version":"10.0p2 Debian 5"}
+          }
+        ]
+      }
+    ]
+  },
+  "http": {
+    "http_headers.txt":"[!] Failed headers for http://192.168.186.128",
+    "http_robots.txt":"No robots or failed to fetch"
+  },
+  "dir": {}
+}
+```
+
+---
+
+## 🖼️ Screenshot
+
+<img width="1917" height="757" alt="demo" src="https://github.com/user-attachments/assets/00b20f10-dd2e-4942-97cc-f33ef8eb14b9" />
+
+---
+
+## 🔭 Next-level ideas
+
+- [ ] HTML report generator from summary.json (Streamlit / Flask)
+- [ ] Slack/Discord webhook dry-run notifier (lab-only)
+- [ ] Parsers for ffuf, gobuster, nuclei, and HTML reports
+- [ ] CI check to validate summary.json format
+
+---
+
+## ⚖️ Responsible use
+
+> This repo is an educational tool.  
+> Always have permission before scanning.  
+> Use snapshots, isolated networks, and follow rules of engagement.
+
+---
+
+## 🧾 License & contact
+
+MIT — see [LICENSE](LICENSE).  
+Maintained by [Asura-Lord](https://github.com/Asura-Lord)
+
+_Keep it dangerous, keep it legal. — Asura-Lord 👹_
