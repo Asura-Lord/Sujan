@@ -52,7 +52,7 @@ Focus areas: **ethical hacking**, **CTFs**, **vuln research**, and **security au
 ### ✅ Completed
 - **recon-automator** ⚡ — Lab-safe recon automation (Nmap + HTTP checks + optional dir fuzzing), outputs a clean `summary.json`.  
   
-g width="1917" height="757" alt="demo" src="https://github.com/user-attachments/assets/00b20f10-dd2e-4942-97cc-f33ef8eb14b9" />
+<img width="1917" height="757" alt="demo" src="https://github.com/user-attachments/assets/00b20f10-dd2e-4942-97cc-f33ef8eb14b9" />
 
 ### 🔨 Upcoming & Experiments
 - **pentest-lab-automation** — (coming soon) Scripts & compose files to spin up vulnerable VMs/containers. ⚠️ Lab-only
