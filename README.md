@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://media.giphy.com/media/3oEjHWbXcpeKhTktXi/giphy.gif" width="700" alt="hacker terminal"/>
-</p>
 
 
 # 👋 Hey — I'm Sujan
@@ -43,11 +40,15 @@ Everything here is for education, labs, and authorized tests only. I do **not** 
 
 ---
 
-## 📌 Featured (to be pinned)
-> I keep these repos lab-safe and documented.
+## 📌 Featured / Projects
+> Lab-safe, portfolio-ready repos.
 
-- **pentest-lab-automation** — scripts and compose files to spin up vulnerable VMs/containers for learning.  
-- **vuln-notify** — a demo service that parses CVE feeds and sends sanitized alerts to webhooks (lab/demo only).  
-- **ctf-tools** — helpful encoders/decoders and small scripts used while doing CTFs.  
-- **dotfiles** — my terminal/dev environment configs (neovim, tmux, zsh, aliases).
+### ✅ Completed
+- **recon-automator** — lab-safe recon automation (Nmap + HTTP checks + optional dir fuzzing) → produces clean `summary.json`. Ready for CTFs, learning, and defensive detection practice. Demo results included in `sample_results/`. ⭐
+
+### 🔜 Side / Upcoming
+- **pentest-lab-automation** — scripts & compose files to spin up vulnerable VMs/containers (DVWA, Juice Shop) for safe practice.  
+- **vuln-notify** — demo service that parses CVE feeds and sends sanitized alerts to webhooks (lab/demo only).  
+- **ctf-tools** — small helpers for CTFs: encoders/decoders, format converters, and writeup templates.  
+- **dotfiles** — my terminal/dev environment configs (neovim, tmux, zsh, aliases) tuned for lab workflows.
 
